@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="heading">
+      Form builder
+    </h1>
+    <div class="container" id="form-div">
+      <div class="feild1">
+        <label for="fname">Element Name</label>
+        <input type="text" id="fname" name="fname" />
+      </div>
+      <div class="feild1">
+        <label for="elements">Element type</label>
+
+        <select name="elements" id="elements">
+          <option value="select">select</option>
+          <option value="text">Text</option>
+          <option value="email">Email</option>
+          <option value="password">Password</option>
+        </select>
+      </div>
+      <div class="feild1">
+        <input type="checkbox" id="yesNoCheckbox" name="yesNoCheckbox" />
+        <label for="yesNoCheckbox">Required</label>
+      </div>
+      <div class="feild1">
+        <button class="btn" onclick="storeValues()">+</button>
+      </div>
+    </div>
+
+    <div class="feild2">
+      <button class="generate-btn" onclick="generateForm()">
+        Generate Form
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

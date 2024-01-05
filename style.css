@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(224, 227, 228, 0.654);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 93vw;
+    height: 50px;
+    justify-content: space-between;
+    margin-left: 20px;
+    border: 1px solid black;
+}
+
+.feild1{
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 25%;
+
+}
+
+@media(max-width:950px)
+{
+  .container{
+    flex-direction: column;
+    height: auto;
+  }
+} 
+
+.feild2{
+    margin-top: 40px;
+    margin-left: 500px;
+    margin-bottom: 30px;
+}
+.generate-btn {
+
+    background-color: green;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.heading{
+    font-weight: bolder;
+     margin-bottom: 20px; 
+     text-align: center;
+     margin-left: 20px;
+     margin-right: 65px;
+     background-color:blue;
+}
